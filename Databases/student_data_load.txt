@@ -1,0 +1,308 @@
+REM INSERTING INTO cen_customer
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(1,'Landry','Greg','109 Franklin','Oviedo','FL','32762');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(2,'Lomas','Lorenzo','2301 54th','Norcross','GA','30010');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(3,'Kent','Sally','76 Lemon','Sanford','FL','32773');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(4,'Talma','Theresa','9843 Western','Beauford','SC','29902');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(5,'Lynch','Victor','210 Blaine','Oviedo','FL','32762');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(6,'West','Wally','909 76th','Winter Springs','FL','32708');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(7,'Quincy','Sam','4543 54th','Dekalb','GA','60015');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(8,'Edwards','Ed','6453 102nd','Oviedo','FL','32762');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(9,'Franklin','Sue','4 Lexington','Sanford','FL','32773');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(10,'Smith','Sam','121 Kent #5','Marietta','GA','30006');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(11,'Jenkins','Sherry','9842 Sparrow','Oviedo','FL','32762');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(12,'Palmer','Franco','94834 Apple','Beauford','SC','29902');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(13,'Morales','Lourdes','2 Wren','Geneva','FL','32732');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(14,'Chin','Chen','34 Robin','Winter Springs','FL','32708');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(15,'Tran','Von','99 Elm','Winter Springs','FL','32708');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(16,'Smith','Larry','433 First','Winter Springs','FL','32708');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(17,'Washington','Mary','2374 Spruce','Lake Mary','FL','32746');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(18,'Protho','Tom','4374 Euclid #4','Sanford','FL','32773');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(19,'Cashman','Zac','2122 Tree Top','Sanford','FL','32773');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(20,'O''Brien','Nancy','43 Central','Lake Mary','FL','32746');
+INSERT INTO  cen_customer (customerid,lastname,firstname,address,city,state,zip) VALUES 
+	(100,'Senata','Rich','1109 Janey','Oviedo','FL','32708');
+
+REM INSERTING INTO cen_mechanic
+
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(1,'Smith','Jane','123-44-3214','1 East St','Lake','FL',32754, 46.13);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(2,'Johnson','Jill','214-23-1423','3094 Edgewood','Seaview','FL',32708, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(3,'Kerry','Larry','823-82-8348','9234 Logan Ave','Lakeside','FL',32743, 67.5);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(4,'Johnson','John','124-12-4124','3485 Robin','Lincol','FL',32554, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(5,'Johnson','Bill','823-48-2384','22 201st St','Lakeside','FL',32773, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(6,'Johnson','Mary','921-34-9214','32141 Elm','Pleasant','FL',32089, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(7,'Johnson','Roger','123-41-2412','32141 Elm','Pleasant','FL',32089, 90);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(8,'Williams','Greg','235-23-9523','3125 Pine','Trenton','GA',12421, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(9,'Reese','Ed','021-93-4029','54 Rose','Fort Smith','AK',92181, 112.5);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(10,'West','Thomas','023-48-9232','44 Magnolia','Eureka','FL',32474, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(11,'Brokaw','Misty','124-39-8121','3243 Pine','Trenton','GA',12421, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(12,'Casteel','Mandy','013-21-4212','42 Hwy 19','Osage','MS',23412, 101.25);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(13,'Thomas','Tommy','023-04-3242','634 Doodle','Sunshine','FL',21241, 123.75);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(14,'Looper','David','012-41-2001','4211 Redwood','Lakeside','FL',32743, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(15,'Smithson','Fred','012-23-4523','121 Redbud','Lakeside','FL',32743, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(16,'Benjamin','Jack','235-02-0352','34211 Oak','Lakeside','FL',32743, 123.75);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(17,'Jense','Patty','230-23-0520','32 Sentry','Lakeside','FL',32744, 58.28);
+INSERT INTO cen_mechanic (mechanicid,lastname,firstname,ssn,address,city,state,zip,baserate) VALUES 
+	(18,'Smith','Sally','123-01-2341','142 Wester','West Oak','GA',12421, 123.75);
+
+REM INSERTING INTO cen_repair
+
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (1,'Oil change',0.5,'Lube');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (3,'Brake pads',1.5,'Brakes');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (4,'Turn rotors',1,'Brakes');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (5,'Chg transmission fluid',3,'Fluids');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (6,'Coolant',2,'Fluids');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (7,'Tire pressure',0.25,'Tires');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (8,'General diagnosis',1,'General');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (9,'PCV',1,'Exhaust');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (10,'Oil filter',0.5,'Filters');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (11,'Air filter',0.25,'Filters');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (12,'Cabin filter',0.25,'Filters');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (13,'Replace muffler',1.8,'Exhaust');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (14,'Catalytic convertor',4,'Exhaust');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (15,'Ball joint lube',0.5,'Lube');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (16,'Brake fluid',1.5,'Fluids');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (17,'Alignment',3,'Tires');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (18,'Balance',1,'Tires');
+INSERT INTO cen_repair (repairid,description,standardhours,category) VALUES (2,'Fix flat tire',0.5,'Tires');
+
+REM INSERTING INTO cen_salesperson
+
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(1,'Smith','Jane','123-44-3214','1 East St','Lake','FL',32754);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(2,'Johnson','Jill','214-23-1423','3094 Edgewood','Seaview','FL',32999);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(3,'Kerry','Larry','823-82-8348','9234 Logan Ave','Lakeside','FL',32743);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(4,'Johnson','John','124-12-4124','3485 Robin','Lincol','FL',32554);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(5,'Johnson','Bill','823-48-2384','22 201st St','Lakeside','FL',32743);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(6,'Johnson','Mary','921-34-9214','32141 Elm','Pleasant','FL',32089);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(7,'Johnson','Roger','123-41-2412','32141 Elm','Pleasant','FL',32089);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(8,'Williams','Greg','235-23-9523','3125 Pine','Trenton','GA',12421);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(9,'Reese','Ed','021-93-4029','54 Rose','Fort Smith','AK',92181);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(10,'West','Thomas','023-48-9232','44 Magnolia','Eureka','FL',32474);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(11,'Brokaw','Misty','124-39-8121','3243 Pine','Trenton','GA',12421);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(12,'Casteel','Mandy','013-21-4212','42 Hwy 19','Osage','MS',23412);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(13,'Looper','David','012-41-2001','4211 Redwood','Lakeside','FL',32743);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(14,'Smithson','Fred','012-23-4523','121 Redbud','Lakeside','FL',32743);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(15,'Benjamin','Jack','235-02-0352','34211 Oak','Lakeside','FL',32743);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(16,'Jense','Patty','230-23-0520','32 Sentry','Lakeside','FL',32744);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(17,'Smith','Milly','123-01-2341','142 Wester','West Oak','GA',12421);
+INSERT INTO cen_salesperson (salespersonid,lastname,firstname,ssn,address,city,state,zip) VALUES 
+	(18,'Woods','Brent','555-34-4534','88043 Rosewood','Linden','FL',32778);
+
+REM INSERTING INTO cen_vehicle
+
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(1,'Ford','Taurus',2012,'Gray',35000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(2,'Ford','Taurus',2012,'Gray',32000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(3,'Ford','Taurus',2012,'Blue',33000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(4,'Ford','Taurus',2012,'White',42000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(5,'Ford','Taurus',2012,'White',37000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(6,'Ford','Flex',2012,'Black',43000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(7,'Ford','Flex',2012,'Black',41000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(8,'Ford','Flex',2012,'Red',41000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(9,'Ford','Flex',2012,'White',45000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(10,'Ford','Flex',2012,'White',40000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(11,'Mercury','Mila',2011,'Red',28000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(12,'Mercury','Mila',2011,'White',28000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(13,'Mercury','Mila',2011,'Blue',29000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(14,'Mercury','Mila',2011,'White',29000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(15,'Mercury','Grand Marquis',2011,'Black',31000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(16,'Mercury','Grand Marquis',2011,'Gray',32000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(17,'Mercury','Grand Marquis',2011,'Gray',31000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(18,'Mercury','Mountaineer',2011,'Black',33000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(19,'Lincoln','MKZ',2012,'White',34000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(20,'Lincoln','MKZ',2012,'White',34000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(21,'Lincoln','MKZ',2012,'Gray',35000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(22,'Lincoln','MKZ',2011,'Gray',31000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(23,'Lincoln','MKS',2012,'White',43000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(24,'Lincoln','MKS',2012,'Black',43000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(25,'Ford','Focus',2011,'Red',17000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(26,'Ford','Focus',2011,'Red',17000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(27,'Ford','Focus',2011,'Blue',16000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(28,'Ford','Focus',2011,'Blue',19000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(29,'Ford','Focus',2012,'White',17000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(30,'Ford','Focus',2012,'Red',18000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(31,'Ford','Focus',2012,'Blue',19000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(32,'Ford','Focus',2012,'Blue',19000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(33,'Ford','Fiesta',2011,'Red',13000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(34,'Ford','Fiesta',2011,'Red',14000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(35,'Ford','Fiesta',2011,'White',13000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(36,'Ford','Fiesta',2011,'Black',13000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(37,'Ford','Fiesta',2012,'Red',14000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(38,'Ford','Fiesta',2012,'Red',13000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(39,'Ford','Fiesta',2012,'Black',13000,'Y',0);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(40,'Ford','Fiesta',2012,'Gray',14000,'N',0.1);
+INSERT INTO cen_vehicle (vin,make,model,vehicleyear,color,suggestedprice,sold,sale_discount) VALUES 
+	(56,'LLincoln','MKS',2011,'White',43000,'N',0.1);
+
+REM INSERTING INTO cen_repairappointment
+
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (81,'3',4,1,1,('12-APR-12 09:15:00','DD-MON-RR HH24:MI:SS'),'20K Maintenance','12-APR-12 10:55:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (82,'3',4,9,5,'13-APR-12 11:00:00','DD-MON-RR HH24:MI:SS'),'High temperature','13-APR-12 12:20:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (83,'7',10,9,1,'03-MAY-12 08:00:00','DD-MON-RR HH24:MI:SS'),'15K Maintenance','03-MAY-12 09:30:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (84,'7',10,9,7,'01-JUN-12 09:30:00','DD-MON-RR HH24:MI:SS'),'Check engine light','01-JUN-12 11:45:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (85,'5',8,1,1,'20-NOV-11 09:30:00','DD-MON-RR HH24:MI:SS'),'Follow Up','20-NOV-11 10:20:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (86,'10',3,4,12,'13-AUG-12 08:00:00','DD-MON-RR HH24:MI:SS'),'Muffler noise','13-AUG-12 08:45:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (87,'5',8,3,16,'13-NOV-11 08:30:00','DD-MON-RR HH24:MI:SS'),'Shake in front end','13-NOV-11 09:15:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (88,'4',6,2,1,'13-NOV-11 01:30:00','DD-MON-RR HH24:MI:SS'),'20K Maintenance','13-NOV-11 14:25:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (89,'4',6,1,4,'05-JAN-11 08:00:00','DD-MON-RR HH24:MI:SS'),'Jerky gear shift',null);
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (90,'3',4,2,1,'15-FEB-12 09:00:00','DD-MON-RR HH24:MI:SS'),'10K Maintenance','15-FEB-12 09:55:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (91,'3',4,4,2,'24-SEP-12 10:00:00','DD-MON-RR HH24:MI:SS'),'Brake Job','24-SEP-12 10:42:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (92,'3',5,18,15,'24-SEP-12 10:15:00','DD-MON-RR HH24:MI:SS'),'Brake Job','24-SEP-12 11:15:00','DD-MON-RR HH24:MI:SS'));
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (93,'14',2,16,15,'13-NOV-11 10:30:00','DD-MON-RR HH24:MI:SS'),'Rough ride',null);
+INSERT INTO cen_repairappointment (apptid,vin,customerid,mechanicid,repairid,appt_date_time,reason,date_time_completed) 
+	VALUES (95,'3',4,9,2,'22-MAY-12 08:15:00','DD-MON-RR HH24:MI:SS'),'Follow up','22-MAY-12 09:07:00','DD-MON-RR HH24:MI:SS'));
+
+
+REM INSERTING INTO cen_sale
+
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (47,2,1,5,'10-NOV-11 00:00:00','DD-MON-RR HH24:MI:SS'),36000,2160);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (48,4,3,8,'01-FEB-12 00:00:00','DD-MON-RR HH24:MI:SS'),35000,2100);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (49,6,4,8,'23-JAN-12 00:00:00','DD-MON-RR HH24:MI:SS'),45000,2700);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (50,8,5,2,'03-MAR-12 00:00:00','DD-MON-RR HH24:MI:SS'),36000,2160);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (51,10,7,1,'02-APR-12 00:00:00','DD-MON-RR HH24:MI:SS'),41000,2460);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (52,5,11,3,'05-JAN-12 00:00:00','DD-MON-RR HH24:MI:SS'),29000,1740);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (53,2,12,4,'07-JAN-12 00:00:00','DD-MON-RR HH24:MI:SS'),28000,1680);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (54,18,13,7,'15-FEB-11 00:00:00','DD-MON-RR HH24:MI:SS'),33000,1980);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (55,15,14,5,'23-SEP-11 00:00:00','DD-MON-RR HH24:MI:SS'),30000,1800);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (56,7,15,6,'15-JAN-12 00:00:00','DD-MON-RR HH24:MI:SS'),34000,2040);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (57,15,16,18,'05-JUN-12 00:00:00','DD-MON-RR HH24:MI:SS'),33000,1980);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (58,13,17,18,'23-MAR-12 00:00:00','DD-MON-RR HH24:MI:SS'),33000,1980);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (59,18,18,15,'01-JUN-12 00:00:00','DD-MON-RR HH24:MI:SS'),35000,2100);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (60,16,22,14,'16-APR-12 00:00:00','DD-MON-RR HH24:MI:SS'),33000,1980);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (61,12,25,14,'11-SEP-11 00:00:00','DD-MON-RR HH24:MI:SS'),17000,1020);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (62,12,26,14,'12-JUN-12 00:00:00','DD-MON-RR HH24:MI:SS'),17000,1020);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (63,14,27,10,'12-APR-12 00:00:00','DD-MON-RR HH24:MI:SS'),16000,960);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (64,19,28,9,'21-MAY-12 00:00:00','DD-MON-RR HH24:MI:SS'),20000,1200);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (65,9,31,18,'02-MAR-12 00:00:00','DD-MON-RR HH24:MI:SS'),21000,1260);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (66,2,33,15,'03-JUN-12 00:00:00','DD-MON-RR HH24:MI:SS'),14000,840);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (67,20,34,16,'01-JUN-12 00:00:00','DD-MON-RR HH24:MI:SS'),15000,900);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (68,11,35,18,'15-MAR-12 00:00:00','DD-MON-RR HH24:MI:SS'),14000,840);
+INSERT INTO cen_sale (saleid,customerid,vin,salespersonid,datesold,saleamount,taxamount) 
+	VALUES (69,17,39,9,'16-APR-12 00:00:00','DD-MON-RR HH24:MI:SS'),15000,900);
